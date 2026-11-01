@@ -1,0 +1,29 @@
+{
+  "source_root": "/datastore/dungmt/textvqa/data/benchmark_v1/raw/stvqa_clean",
+  "output_root": "/datastore/dungmt/textvqa/data/benchmark_v1/raw/full_stvqa_degraded",
+  "workspace_root": "/datastore/dungmt/_workspace_full_stvqa_degraded",
+  "seed": 42,
+  "workers": 8,
+  "png_compression": 6,
+  "calibration_images": 300,
+  "single_calibration_images": 120,
+  "ablation_images": 400,
+  "preflight_images": 25,
+  "max_output_disk_gb": 100.0,
+  "expected_images": {
+    "train": 18921
+  },
+  "expected_questions": {
+    "train": 26074
+  },
+  "scheduler": {
+    "account": "uit",
+    "partition": "normal",
+    "gres": "gpu:2g.35gb:1",
+    "cpus": 8,
+    "ram_gb": 40,
+    "walltime": "24:00:00",
+    "qos": "mig2-35"
+  },
+  "source_manifest_path": "configs/hf_source_manifest.json"
+}

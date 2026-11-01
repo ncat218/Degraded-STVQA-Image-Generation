@@ -1,0 +1,13 @@
+{
+  "source_repo": "vikhyatk/st-vqa",
+  "source_revision": "cbf984aaf398e03a4d9134e6c6c2fd347168e08f",
+  "source_split": "train",
+  "files": [
+    {"name": "train-00000-of-00006.parquet", "size": 494363860, "sha256": "ffc8ecc3d5850eb3b3ac46cbafc56c2e167ccd7f1970c141ca1bf37e18535bc3"},
+    {"name": "train-00001-of-00006.parquet", "size": 502532878, "sha256": "718ad35f517011eee11aeb0ab36da008b0a4e28dc88e4570680c20b31f00b5a3"},
+    {"name": "train-00002-of-00006.parquet", "size": 494082847, "sha256": "92aad43e9b0c45c7260c8778bf55880d434061998ed0d04559cb559456e1cc30"},
+    {"name": "train-00003-of-00006.parquet", "size": 497993182, "sha256": "09663434dd411aa8c852b3ddd5f03c674242370eabaa5810d022bca563b50309"},
+    {"name": "train-00004-of-00006.parquet", "size": 504960313, "sha256": "157179aba3e232f7bd185bf956ed3bb1579eb23052eb19c62e796048b8ab8ec8"},
+    {"name": "train-00005-of-00006.parquet", "size": 501434847, "sha256": "8ee5a63532252179ef959d224a1743519766d0e7d2a6ddbeae6ae6ca07e5fc5b"}
+  ]
+}
